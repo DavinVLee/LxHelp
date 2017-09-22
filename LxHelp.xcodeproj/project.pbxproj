@@ -32,6 +32,7 @@
 		836D628D1F74ABB7008FF81C /* LxAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 836D62791F74ABB7008FF81C /* LxAlertController.m */; };
 		836D628E1F74ABB7008FF81C /* LxSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 836D627E1F74ABB7008FF81C /* LxSegmentedControl.m */; };
 		836D62911F74AC08008FF81C /* NSDictionary+XmlHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 836D628F1F74AC08008FF81C /* NSDictionary+XmlHelper.m */; };
+		8390A3E81F74C178003AA0CF /* LxAvPlayerLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8390A3E71F74C178003AA0CF /* LxAvPlayerLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +104,8 @@
 		836D627E1F74ABB7008FF81C /* LxSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LxSegmentedControl.m; sourceTree = "<group>"; };
 		836D628F1F74AC08008FF81C /* NSDictionary+XmlHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+XmlHelper.m"; sourceTree = "<group>"; };
 		836D62901F74AC08008FF81C /* NSDictionary+XmlHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+XmlHelper.h"; sourceTree = "<group>"; };
+		8390A3E61F74C178003AA0CF /* LxAvPlayerLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxAvPlayerLayer.h; sourceTree = "<group>"; };
+		8390A3E71F74C178003AA0CF /* LxAvPlayerLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LxAvPlayerLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -322,6 +325,7 @@
 		836D62741F74ABB7008FF81C /* Inheritance_Default */ = {
 			isa = PBXGroup;
 			children = (
+				8390A3E51F74C163003AA0CF /* LxAvPlayerLayer */,
 				836D62751F74ABB7008FF81C /* UIAlertController */,
 			);
 			path = Inheritance_Default;
@@ -353,6 +357,15 @@
 				836D627E1F74ABB7008FF81C /* LxSegmentedControl.m */,
 			);
 			path = LxSegmentedControl;
+			sourceTree = "<group>";
+		};
+		8390A3E51F74C163003AA0CF /* LxAvPlayerLayer */ = {
+			isa = PBXGroup;
+			children = (
+				8390A3E61F74C178003AA0CF /* LxAvPlayerLayer.h */,
+				8390A3E71F74C178003AA0CF /* LxAvPlayerLayer.m */,
+			);
+			path = LxAvPlayerLayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -503,6 +516,7 @@
 				836D62891F74ABB7008FF81C /* UIFont+Default.m in Sources */,
 				836D62801F74ABB7008FF81C /* CAShapeLayer+Default.m in Sources */,
 				836D628A1F74ABB7008FF81C /* UIImage+Default.m in Sources */,
+				8390A3E81F74C178003AA0CF /* LxAvPlayerLayer.m in Sources */,
 				836D628E1F74ABB7008FF81C /* LxSegmentedControl.m in Sources */,
 				836D62841F74ABB7008FF81C /* NSDictionary+Helper.m in Sources */,
 				836D628D1F74ABB7008FF81C /* LxAlertController.m in Sources */,
