@@ -22,7 +22,7 @@
     }
     UIImage *image = [UIImage imageWithContentsOfFile:tempPath];
     if (image == nil) {
-        debugLog(@"出现空的图片%@",imageName);
+        NSLog(@"出现空的图片%@",imageName);
         return [UIImage imageNamed:@"Loading...@2x"];
     }
     NSAssert(image, @"出现空的图片%@",imageName);
