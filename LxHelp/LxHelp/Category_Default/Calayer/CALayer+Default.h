@@ -29,7 +29,7 @@
 - (UIImage *)lx_snapshotImage;
 /**
  *@description 获取图片,默认居中
- *@param edge截取图片画板内容个方向的增量
+ *@param edge 截取图片画板内容个方向的增量
  **/
 - (UIImage *)lx_snapshotImageWithOffsetEdge:(UIEdgeInsets)edge;
 

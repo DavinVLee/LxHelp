@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CE7A6D71FABFC1D009FA569 /* UIViewController+Default.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE7A6D61FABFC1D009FA569 /* UIViewController+Default.m */; };
 		836D61D41F74A113008FF81C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 836D61D31F74A113008FF81C /* main.m */; };
 		836D61D71F74A113008FF81C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 836D61D61F74A113008FF81C /* AppDelegate.m */; };
 		836D61DA1F74A113008FF81C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 836D61D91F74A113008FF81C /* ViewController.m */; };
@@ -53,6 +54,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0CE7A6D51FABFC1D009FA569 /* UIViewController+Default.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Default.h"; sourceTree = "<group>"; };
+		0CE7A6D61FABFC1D009FA569 /* UIViewController+Default.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Default.m"; sourceTree = "<group>"; };
 		836D61CF1F74A113008FF81C /* LxHelp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LxHelp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		836D61D31F74A113008FF81C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		836D61D51F74A113008FF81C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -133,6 +136,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CE7A6D41FABFB88009FA569 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0CE7A6D51FABFC1D009FA569 /* UIViewController+Default.h */,
+				0CE7A6D61FABFC1D009FA569 /* UIViewController+Default.m */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
 		836D61C61F74A113008FF81C = {
 			isa = PBXGroup;
 			children = (
@@ -210,6 +222,7 @@
 		836D624F1F74ABB7008FF81C /* Category_Default */ = {
 			isa = PBXGroup;
 			children = (
+				0CE7A6D41FABFB88009FA569 /* UIViewController */,
 				836D62501F74ABB7008FF81C /* Calayer */,
 				836D62571F74ABB7008FF81C /* NSArray */,
 				836D625C1F74ABB7008FF81C /* NSDictionary */,
@@ -430,7 +443,7 @@
 		836D61C71F74A113008FF81C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = DavinLee;
 				TargetAttributes = {
 					836D61CE1F74A113008FF81C = {
@@ -512,6 +525,7 @@
 				836D62871F74ABB7008FF81C /* UIButton+EnlargeEdge.m in Sources */,
 				836D61D71F74A113008FF81C /* AppDelegate.m in Sources */,
 				836D628C1F74ABB7008FF81C /* LxAlertAction.m in Sources */,
+				0CE7A6D71FABFC1D009FA569 /* UIViewController+Default.m in Sources */,
 				836D62851F74ABB7008FF81C /* NSString+Helper.m in Sources */,
 				836D62891F74ABB7008FF81C /* UIFont+Default.m in Sources */,
 				836D62801F74ABB7008FF81C /* CAShapeLayer+Default.m in Sources */,
@@ -587,7 +601,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -595,7 +611,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -636,7 +656,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -644,7 +666,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;

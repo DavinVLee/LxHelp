@@ -16,13 +16,13 @@
 
 /**
  *@description 图片主题色修改
- *@param tintColor
+ *@param tintColor 元素主题颜色
  **/
 - (UIImage *)lx_imageWithTintColor:(UIColor *)tintColor;
 /**
  *@description 图片主题色修改
  *@param tintColor 主题色
- *@param 填充模式
+ *@param blendMode 填充模式
  **/
 - (UIImage *)lx_imageWithTintColor:(UIColor *)tintColor blendMode:(CGBlendMode)blendMode;
 @end
