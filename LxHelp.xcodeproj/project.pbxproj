@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0CE7A6D71FABFC1D009FA569 /* UIViewController+Default.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE7A6D61FABFC1D009FA569 /* UIViewController+Default.m */; };
+		0CE7A7CF1FAC696D009FA569 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CE7A7CE1FAC695D009FA569 /* SpriteKit.framework */; };
+		0CE7A7D31FAC69B2009FA569 /* ButtonAni.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE7A7D21FAC69B2009FA569 /* ButtonAni.m */; };
 		836D61D41F74A113008FF81C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 836D61D31F74A113008FF81C /* main.m */; };
 		836D61D71F74A113008FF81C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 836D61D61F74A113008FF81C /* AppDelegate.m */; };
 		836D61DA1F74A113008FF81C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 836D61D91F74A113008FF81C /* ViewController.m */; };
@@ -56,6 +58,9 @@
 /* Begin PBXFileReference section */
 		0CE7A6D51FABFC1D009FA569 /* UIViewController+Default.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Default.h"; sourceTree = "<group>"; };
 		0CE7A6D61FABFC1D009FA569 /* UIViewController+Default.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Default.m"; sourceTree = "<group>"; };
+		0CE7A7CE1FAC695D009FA569 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		0CE7A7D11FAC69B2009FA569 /* ButtonAni.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonAni.h; sourceTree = "<group>"; };
+		0CE7A7D21FAC69B2009FA569 /* ButtonAni.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonAni.m; sourceTree = "<group>"; };
 		836D61CF1F74A113008FF81C /* LxHelp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LxHelp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		836D61D31F74A113008FF81C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		836D61D51F74A113008FF81C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -116,6 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CE7A7CF1FAC696D009FA569 /* SpriteKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +151,23 @@
 			path = UIViewController;
 			sourceTree = "<group>";
 		};
+		0CE7A7CD1FAC695D009FA569 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CE7A7CE1FAC695D009FA569 /* SpriteKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0CE7A7D01FAC697C009FA569 /* SKNode */ = {
+			isa = PBXGroup;
+			children = (
+				0CE7A7D11FAC69B2009FA569 /* ButtonAni.h */,
+				0CE7A7D21FAC69B2009FA569 /* ButtonAni.m */,
+			);
+			path = SKNode;
+			sourceTree = "<group>";
+		};
 		836D61C61F74A113008FF81C = {
 			isa = PBXGroup;
 			children = (
@@ -152,6 +175,7 @@
 				836D61EB1F74A114008FF81C /* LxHelpTests */,
 				836D61F61F74A114008FF81C /* LxHelpUITests */,
 				836D61D01F74A113008FF81C /* Products */,
+				0CE7A7CD1FAC695D009FA569 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -222,6 +246,7 @@
 		836D624F1F74ABB7008FF81C /* Category_Default */ = {
 			isa = PBXGroup;
 			children = (
+				0CE7A7D01FAC697C009FA569 /* SKNode */,
 				0CE7A6D41FABFB88009FA569 /* UIViewController */,
 				836D62501F74ABB7008FF81C /* Calayer */,
 				836D62571F74ABB7008FF81C /* NSArray */,
@@ -520,6 +545,7 @@
 				836D62911F74AC08008FF81C /* NSDictionary+XmlHelper.m in Sources */,
 				836D61DA1F74A113008FF81C /* ViewController.m in Sources */,
 				836D62861F74ABB7008FF81C /* NSTimer+Default.m in Sources */,
+				0CE7A7D31FAC69B2009FA569 /* ButtonAni.m in Sources */,
 				836D628B1F74ABB7008FF81C /* UIView+Default.m in Sources */,
 				836D627F1F74ABB7008FF81C /* CALayer+Default.m in Sources */,
 				836D62871F74ABB7008FF81C /* UIButton+EnlargeEdge.m in Sources */,
