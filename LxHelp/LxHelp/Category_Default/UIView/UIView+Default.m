@@ -9,5 +9,16 @@
 #import "UIView+Default.h"
 
 @implementation UIView (Default)
+#pragma mark - 位置相关
+/**
+ *@description 设置中心点
+ **/
+- (void)lx_setCenter:(CGPoint)center
+{
+    self.frame = CGRectMake(center.x - CGRectGetWidth(self.frame)/2.f,
+                            center.y - CGRectGetHeight(self.frame)/2.f,
+                            CGRectGetWidth(self.frame),
+                            CGRectGetHeight(self.frame));
+}
 
 @end

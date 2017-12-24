@@ -9,5 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface UIView (Default)
+#pragma mark - 位置相关
+/**
+ *@description 设置中心点
+ **/
+- (void)lx_setCenter:(CGPoint)center;
+
 
 @end
